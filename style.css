@@ -28,7 +28,6 @@ body {
     align-items: center;
     padding-top: .7rem;
     gap: 1rem;
-    
 }
 
 .header-logo {
@@ -43,16 +42,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 4 1 0;
+    flex: 3 1 0;
 }   
 
 .container-1 .left-content h1 {
     display: inline;
 }
 
-.container-1 .left-content .text {
-    
-}
 
 .container-1 .left-content button {
     color: white;
@@ -61,13 +57,11 @@ body {
     padding: .5rem 1.5rem .5rem 1.5rem;
     border-radius: .6rem;
     border: none;
-    
 }
 
 .container-1 .left-content {
     width: 40%;
     flex-wrap: wrap;
-
 }
 
 .container-1 .right-content {
@@ -77,21 +71,47 @@ body {
     height: 60%;
 }
 
-
-
 .container-2 {
    background-color: white;
    flex: 4 1 0;
 }
 
+.container-2 h2{
+    text-align: center;
+}
+
+.container-2 .info-container{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container-2 .info-container .info {
+    width: 10rem;
+    flex-shrink: 2;
+}
+
+.container-2 .info-container img {
+    padding: 3rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    border-style: solid;
+    border-radius: .6rem;
+    border-color: rgb(38, 69, 193);
+}
+
+.container-2 .info-container .text{
+    text-align: center;
+}
+
 .container-3 {
     background-color: rgb(107, 102, 102);
-    flex: 4 1 0;
+    flex: 3 1 0;
 }
 
 .container-4 {
     background-color: white;
-    flex: 4 1 0;
+    flex: 3 1 0;
 }
 
 .footer {
