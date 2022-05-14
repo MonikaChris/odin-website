@@ -1,10 +1,11 @@
 body {
     min-height: 100vh;
-    background-color: white;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
+/*page margins*/
 .header, .container-1, 
 .container-2, .container-3,
 .container-4, .footer {
@@ -13,8 +14,8 @@ body {
 }
 
 .header {
-    background-color: rgb(32, 32, 54);
-    color: white;
+    background-color: #1F2937;
+    color: #E5E7EB;
     display: flex;
     justify-content: space-between;
     flex: 1 1 0;
@@ -22,7 +23,7 @@ body {
 
 .header-links {
     display: flex;
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
     align-items: center;
     padding-top: .7rem;
@@ -32,12 +33,13 @@ body {
 .header-logo {
     font-size: 1.5rem;
     font-weight: 700;
+    color: #F9FAF8;
     padding-top: 1.5rem;
 }
 
 .container-1 {
-    background-color: rgb(32, 32, 54);
-    color: white;
+    background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,10 +50,10 @@ body {
     display: inline;
 }
 
-
+/*shared button properties*/
 button {
-    color: white;
-    background-color: rgb(38, 69, 193);
+    color: #F9FAF8;
+    background-color: #3882F6;
     margin-top: 1rem;
     padding: .5rem 1.5rem .5rem 1.5rem;
     border-radius: .6rem;
@@ -65,7 +67,7 @@ button {
 
 .container-1 .right-content {
     width: 50%;
-    background-color: gray;
+    background-color: #E5E7EB;
     text-align: center;
     height: 60%;
 }
@@ -87,7 +89,7 @@ button {
 
 .container-2 .info-container .info {
     width: 10rem;
-    flex-shrink: 2;
+    flex-shrink: 1;
 }
 
 .container-2 .info-container img {
@@ -96,7 +98,7 @@ button {
     margin-left: .5rem;
     border-style: solid;
     border-radius: .6rem;
-    border-color: rgb(38, 69, 193);
+    border-color: #3882F6;
 }
 
 .container-2 .info-container .text{
@@ -104,7 +106,7 @@ button {
 }
 
 .container-3 {
-    background-color: rgb(107, 102, 102);
+    background-color: #E5E7EB;
     flex: 3 1 0;
 }
 
@@ -142,7 +144,7 @@ button {
 .container-4 .box {
     width: 50%;
     padding: 2rem;
-    background-color: rgb(38, 69, 193);
+    background-color: #3882F6;
     border-radius: .6rem;
     display: flex;
     justify-content: space-around;
@@ -151,11 +153,11 @@ button {
 
 .container-4 h3 {
     display: inline;
-    color: white;
+    color: #F9FAF8;
 }
 
 .container-4 .small-text {
-    color: white;
+    color: #F9FAF8;
 }
 
 .container-4 button {
@@ -165,7 +167,13 @@ button {
 
 
 .footer {
-    
-    background-color: rgb(32, 32, 54);
+    background-color: #1F2937;
     flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .copyright {
+    color: #F9FAF8;
 }
